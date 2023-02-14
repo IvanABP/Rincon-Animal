@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-image: url("../imagenes/fondo.jpg");
+    font-family: 'Red Hat Display', sans-serif;
+}
+header{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 500px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 500px;
+    border-bottom: 100px;
+}
+.titulo-Principal{
+    padding: 100px;
+    border-radius: 500px;
+    font-family: 'Righteous', cursive;
+    color: rgb(100, 26, 100);
+    text-align: center;
+}
+.titulos{
+    text-align: center;
+    color: rgb(166, 24, 166);
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 45px;
+}
+.recuadros{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+
+}
+.recuadros-secundarios{
+    border: 3px ;
+    background: linear-gradient(to top, #ffefff, #fefefe);
+    margin: 10px 200px 10px 200px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.encontranos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    background: linear-gradient(to top, #ffefff, #fefefe);
+    margin: 10px;
+    padding: 25px;
+}
+
+.was{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    align-items: center;
+}
+.ventaWs{
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+}
+.bordes{
+    border-radius: 50px;
+}
+.caja-flex{ 
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 10px 175px;
+    padding-bottom: 100px;
+
+
+}
+
+.negro{
+    border: 10px;
+    margin: 10px 425px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 0px;
+    padding: 0px;
+    margin: 3px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    /* Reglas de estilo para pantallas pequeñas */
+    h1{
+        margin: 0;
+    }
+    header{
+        margin: 0px;
+        padding: 0px;
+    }
+    .recuadros-secundarios{
+        border: 3px ;
+        margin: 15px;
+        background: linear-gradient(to top, #ffefff, #fefefe);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .negro{
+        border: 0px;
+        margin: 0px 0px;
+    }
+    footer{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        margin-top: 0px;
+        padding: 0px;
+        margin: 3px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        font-family: 'Nanum Brush Script', cursive;
+        font-size: 30px;
+    }
+    .caja-flex{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin: 0px;
+        padding-bottom: 0px;
+    
+    
+    }
+    .encontranos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        background: linear-gradient(to top, #ffefff, #fefefe);
+        margin: 10px;
+        padding: 25px;
+    }
+    .ventaWs{
+        font-size: 20px;
+        margin: 5px;
+        padding: 0;
+    }
+  }
+  
+  @media (min-width: 601px) {
+   
+  }
+  
